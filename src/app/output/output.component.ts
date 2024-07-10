@@ -3,14 +3,12 @@ import {GameData} from "../game-data";
 import {GameService} from "../game-service.service";
 import  {GameResult} from "../game-result";
 import {RouterLink} from "@angular/router";
-import {CommonModule} from "@angular/common";
 
 @Component({
   selector: 'app-output',
   standalone: true,
   imports: [
-    RouterLink,
-    CommonModule
+    RouterLink
   ],
   templateUrl: './output.component.html',
   styleUrl: './output.component.css'
